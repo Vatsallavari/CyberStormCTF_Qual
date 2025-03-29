@@ -1,4 +1,4 @@
-# 📝 CTF Writeup: Big Mom’s Plot
+# 🏴‍☠️ CTF Writeup: Big Mom’s Plot
 
 
 **Challenge Name: Big Mom's Plot**
