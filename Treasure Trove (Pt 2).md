@@ -1,8 +1,8 @@
 # Treasure Trove (Pt 2) — RedFox CTF
 
 **Category:** Reverse Engineering  
-**Difficulty:** Medium  
-**Points:** 💎  
+**File:** `medium3`  
+**Host:** ```nc cyberstorm.redfoxsec.com 19000```
 **Tags:** `reverse` `binary` `C` `modulo` `transform`
 
 ---
@@ -11,9 +11,6 @@
 
 > Shanks called Marco for help with this one and Marco almost awakened in his Tori Tori Devil Fruit and **TRANSFORM**ed into a big firebird in the process.  
 > Help Marco with this binary so he can cool his head down a bit.
->
-> 📡 `nc cyberstorm.redfoxsec.com 19000`  
-> 📦 File: `medium3`
 
 ---
 
