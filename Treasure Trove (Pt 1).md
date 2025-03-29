@@ -1,4 +1,6 @@
 # 📁 Challenge Overview (Treasure Trove (Pt 1)
+
+## 🧩 Challenge Description
 This one sent Beckman for a loop, multiple loops really. Can you help save Benn's reputation in front of Shanks xor is it really that bad?
 **Challenge Name:** Treasure Trove (Pt 0)  
 **File:** `trove`  
