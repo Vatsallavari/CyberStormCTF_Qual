@@ -32,7 +32,7 @@ Upon loading the binary into Ghidra, we observed the following logic in `main()`
 ```
 The check compares user input to a value stored in local_75, which is dynamically generated at runtime. If it doesn't match, the program prints an error and exits.
 
-✂️ Patching Strategy
+## ✂️ Patching Strategy
 We found the assembly responsible for the comparison at:
 
 ```asm
@@ -61,7 +61,7 @@ JMP 00401b91
 ```
 This guarantees the program always jumps to the success path, regardless of user input.
 
-🚀 Execution
+## 🚀 Execution
 After exporting the patched binary:
 
 ```bash
