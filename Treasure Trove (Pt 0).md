@@ -9,7 +9,8 @@
 
 ## 📜 Challenge Description
 
-Shanks found a trove of binaries with treasure hidden inside them. Shanks' crew was able to find most of the treasure, but was struggling with a few. Help Shanks get some dough before he sets out to chase the rush of being an Emperor.
+> Shanks found a trove of binaries with treasure hidden inside them. Shanks' crew was able to find most of the treasure, but was struggling with a few.
+> Help Shanks get some dough before he sets out to chase the rush of being an Emperor.
 
 ---
 
