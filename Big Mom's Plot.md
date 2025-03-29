@@ -1,11 +1,14 @@
 # 📝 CTF Writeup: Big Mom’s Plot
-Category: Reverse Engineering
-Challenge Name: Big Mom's Plot
-Host: nc cyberstorm.redfoxsec.com 4444
+
+
+**Challenge Name: Big Mom's Plot**
+**Category: Reverse Engineering**
+**File:** `warmup.asm`  
+**Host: nc cyberstorm.redfoxsec.com 4444**
 
 ---
 
-## 🧩 Challenge Description
+## 📜 Challenge Description
 Big Mom's Plot
 Big Mom has been keeping their new war strategies under wraps. Not even intelligence services like Cipher Pol have any clue what's going on.
 Can you figure out what is it that they are hiding in case the Straw Hat ever come across their armies (again)?
