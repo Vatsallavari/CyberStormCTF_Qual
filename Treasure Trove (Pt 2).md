@@ -2,8 +2,8 @@
 
 **Category:** Reverse Engineering  
 **File:** `medium3`  
-**Host:** ```nc cyberstorm.redfoxsec.com 19000```
-**Tags:** `reverse` `binary` `C` `modulo` `transform`
+**Host:** ```nc cyberstorm.redfoxsec.com 19000```  
+**Tags:** `reverse` `binary` `C` `modulo` `transform`  
 
 ---
 
