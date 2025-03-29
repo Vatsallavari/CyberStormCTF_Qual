@@ -17,15 +17,18 @@ This one sent Beckman for a loop, multiple loops really. Can you help save Benn'
 Upon loading the binary into Ghidra, we observed the following logic in `main()`:
 
 ```c
-printf("Enter the secret: ");
-scanf("%s", local_e8);
-
-if (strncmp(local_e8, local_75, 12) != 0) {
-    puts("Incorrect, try again!");
-    return 0;
-}
-
-printf("Flag: %s\n", local_a8);
+  iStack_c = 0;
+  while( true ) {
+    if (0xb < iStack_c) {
+      for (iStack_10 = 0; abStack_a8[iStack_10] != 0; iStack_10 = iStack_10 + 1) {
+        abStack_a8[iStack_10] = abStack_b4[0] ^ abStack_a8[iStack_10];
+      }
+      printf(&UNK_0049305b,abStack_a8);
+      return 0;
+    }
+    if (acStack_e8[iStack_c] != acStack_75[iStack_c]) break;
+    iStack_c = iStack_c + 1;
+  }
 ```
 The check compares user input to a value stored in local_75, which is dynamically generated at runtime. If it doesn't match, the program prints an error and exits.
 
