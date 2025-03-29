@@ -1,14 +1,9 @@
-# 🔐 Reverse Engineering Challenge – `trove`
-
-## 📁 Challenge Overview (Treasure Trove (Pt 1)
+# 📁 Challenge Overview (Treasure Trove (Pt 1)
 This one sent Beckman for a loop, multiple loops really. Can you help save Benn's reputation in front of Shanks xor is it really that bad?
-
----
-
-## 🛠 Tools Used
-
-- [Ghidra](https://ghidra-sre.org/) for disassembly and patching
-- Linux terminal to execute the patched binary
+**Challenge Name:** Treasure Trove (Pt 0)  
+**File:** `trove`  
+**Category:** Reverse Engineering  
+**Tool Used:** Ghidra
 
 ---
 
