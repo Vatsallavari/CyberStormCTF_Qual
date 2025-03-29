@@ -1,8 +1,8 @@
 # 🔐 Reverse Engineering Challenge – `trove`
 
 ## 📁 Challenge Overview
-
-The `trove` binary is a reverse engineering challenge that prompts for a "secret" string. If the correct input is provided, it decrypts and prints a flag. Rather than reverse-engineering the input logic or brute-forcing the secret, we bypassed the check through static binary patching using Ghidra.
+Treasure Trove (Pt 1)
+This one sent Beckman for a loop, multiple loops really. Can you help save Benn's reputation in front of Shanks xor is it really that bad?
 
 ---
 
