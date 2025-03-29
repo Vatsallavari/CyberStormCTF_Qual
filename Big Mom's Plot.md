@@ -7,9 +7,9 @@
 ---
 
 ## 📜 Challenge Description
-Big Mom's Plot
-Big Mom has been keeping their new war strategies under wraps. Not even intelligence services like Cipher Pol have any clue what's going on.
-Can you figure out what is it that they are hiding in case the Straw Hat ever come across their armies (again)?
+
+> Big Mom has been keeping their new war strategies under wraps. Not even intelligence services like Cipher Pol have any clue what's going on.
+> Can you figure out what is it that they are hiding in case the Straw Hat ever come across their armies (again)?
 
 A mysterious server is running at
 ```yaml
