@@ -17,17 +17,17 @@ This one sent Beckman for a loop, multiple loops really. Can you help save Benn'
 Upon loading the binary into Ghidra, we observed the following logic in `main()`:
 
 ```c
-  iStack_c = 0;
-  while( true ) {
-    if (0xb < iStack_c) {
-      for (iStack_10 = 0; abStack_a8[iStack_10] != 0; iStack_10 = iStack_10 + 1) {
-        abStack_a8[iStack_10] = abStack_b4[0] ^ abStack_a8[iStack_10];
+    local_c = 0;
+    while( true ) {
+    if (0xb < local_c) {
+      for (local_10 = 0; local_a8[local_10] != 0; local_10 = local_10 + 1) {
+        local_a8[local_10] = local_b4[0] ^ local_a8[local_10];
       }
-      printf(&UNK_0049305b,abStack_a8);
+      printf("Flag: %s\n",local_a8);
       return 0;
     }
-    if (acStack_e8[iStack_c] != acStack_75[iStack_c]) break;
-    iStack_c = iStack_c + 1;
+    if (local_e8[local_c] != local_75[local_c]) break;
+    local_c = local_c + 1;
   }
 ```
 The check compares user input to a value stored in local_75, which is dynamically generated at runtime. If it doesn't match, the program prints an error and exits.
