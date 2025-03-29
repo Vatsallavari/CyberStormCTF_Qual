@@ -1,10 +1,10 @@
 # 🏴‍☠️ CTF Writeup: Big Mom’s Plot
 
 
-**Challenge Name: Big Mom's Plot**
-**Category: Reverse Engineering**
+**Challenge Name:** Big Mom's Plot
+**Category:** Reverse Engineering
 **File:** `warmup.asm`  
-**Host: nc cyberstorm.redfoxsec.com 4444**
+**Host:** nc cyberstorm.redfoxsec.com 4444
 
 ---
 
